@@ -1,13 +1,33 @@
 {
     "children": [
-      { "id": 1, "first_name": "Paisley", "last_name": "Morris", "birthdate": "2001-04-23T00:00:00.000Z", "slug": "paisley-morris"  },
-      { "id": 2, "title": "Sarah", "last_name": "Morris", "birthdate": "2001-04-23T00:00:00.000Z", "slug": "sarah-morris" },
-      { "id": 3, "title": "Sally", "last_name": "Morris", "birthdate": "2001-04-23T00:00:00.000Z", "slug": "sally-morris" }
+      { "id": 1, "first_name": "Paisley", "last_name": "Morris", "birthdate": "2020-04-23T00:00:00.000Z", "slug": "paisley-morris"  },
+      { "id": 2, "title": "Sarah", "last_name": "Morris", "birthdate": "2020-04-23T00:00:00.000Z", "slug": "sarah-morris" },
+      { "id": 3, "title": "Sally", "last_name": "Morris", "birthdate": "2018-12-23T00:00:00.000Z", "slug": "sally-morris" }
     ],
     "products": [
-        { "id": 1, "brand": "Huggies", "Product": "Little Movers", "size": 3, "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e" },
-        { "id": 2, "brand": "Huggies", "Product": "Natural Care Baby Wipes", "size": 3, "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e" },
-        { "id": 3, "brand": "GoodNites", "Product": "Underpants", "size": 3, "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e" }
+        { "brand": "Huggies", "Product": "Little Movers", "size": 3, "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e" },
+        { "brand": "Huggies", "Product": "Natural Care Baby Wipes", "size": 0, "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05" },
+        { "brand": "GoodNites", "Product": "Underpants", "size": 7, "guid": "406d6913-91da-4b1a-863a-c193d69bdee0" }
+    ],
+    "product_to_children": [
+        { "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e", "users": [ 1, 2 ] },
+        { "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05", "users": [ 1, 2, 3 ]},
+        { "guid": "406d6913-91da-4b1a-863a-c193d69bdee0", "users": [ 1 ] }
+    ],
+    "inventory": [
+        { "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e", "qty": 24},
+        { "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05", "qty": 127},
+        { "guid": "406d6913-91da-4b1a-863a-c193d69bdee0", "qty": 18}
+    ],
+    "daily_usage": [
+        { "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e", "qty": 9},
+        { "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05", "qty": 12},
+        { "guid": "406d6913-91da-4b1a-863a-c193d69bdee0", "qty": 2}
+    ],
+    "last_order_date": [
+        { "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e", "date": "2020-12-23T22:15:40.120Z"},
+        { "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05", "date": "2020-11-23T18:25:43.511Z"},
+        { "guid": "406d6913-91da-4b1a-863a-c193d69bdee0", "date": "2020-11-23T18:25:43.511Z"}
     ],
     "profile": {
       "name": "morris-family"
