@@ -1,18 +1,18 @@
 {
     "children": [
-      { "id": 1, "first_name": "Paisley", "last_name": "Morris", "birthdate": "2020-04-23T00:00:00.000Z", "slug": "paisley-morris"  },
-      { "id": 2, "title": "Sarah", "last_name": "Morris", "birthdate": "2020-04-23T00:00:00.000Z", "slug": "sarah-morris" },
-      { "id": 3, "title": "Sally", "last_name": "Morris", "birthdate": "2018-12-23T00:00:00.000Z", "slug": "sally-morris" }
+      { "id": 1, "first_name": "Paisley", "last_name": "Morris", "birthdate": "2020-04-23T00:00:00.000Z", "next_size_date": "2021-01-02T00:00:00.000Z" },
+      { "id": 2, "title": "Sarah", "last_name": "Morris", "birthdate": "2020-04-23T00:00:00.000Z", "next_size_date": "2021-01-02T00:00:00.000Z" },
+      { "id": 3, "title": "Sally", "last_name": "Morris", "birthdate": "2018-12-23T00:00:00.000Z", "next_size_date": "2021-02-15T00:00:00.000Z" }
     ],
     "products": [
-        { "brand": "Huggies", "Product": "Little Movers", "size": 3, "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e" },
-        { "brand": "Huggies", "Product": "Natural Care Baby Wipes", "size": 0, "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05" },
-        { "brand": "GoodNites", "Product": "Underpants", "size": 7, "guid": "406d6913-91da-4b1a-863a-c193d69bdee0" }
+        { "brand": "Huggies", "Product": "Little Movers", "size": 3, "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e", "image": "https://www.huggies.com/~/media/images/kc/huggies/products/diapers/benefitimages/hug_portfolio_movers.png" },
+        { "brand": "Huggies", "Product": "Natural Care Baby Wipes", "size": 0, "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05", "image": "https://www.kimberly-clark.com/-/media/kimberly/images/brandingredients/huggies/wipes/2051950_ncs_hero_opt2.jpg?h=3000&w=3000&la=en&hash=764F75755ABE375F85CFBB87E4629C0099712544" },
+        { "brand": "GoodNites", "Product": "Underpants", "size": 7, "guid": "406d6913-91da-4b1a-863a-c193d69bdee0", "image": "https://www.goodnites.com/-/media/gns_image/video-images/video_boy.jpg?h=326&w=582&la=en-US&hash=FE871D7912AB5D8103BCFD33D3A4EF3A1DE26ED2" }
     ],                   
     "inventory": [
         { "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e", "qty": 24, "users": [ 1, 2 ] },
         { "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05", "qty": 127, "users": [ 1, 2, 3 ]},
-        { "guid": "406d6913-91da-4b1a-863a-c193d69bdee0", "qty": 18, "users": [ 3 ]}
+        { "guid": "406d6913-91da-4b1a-863a-c193d69bdee0", "qty": 18, "users": [ 3 ] }
     ],
     "daily_usage": [
         { "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e", "qty": 9},
