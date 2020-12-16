@@ -1,0 +1,15 @@
+{
+    "children": [
+      { "id": 1, "first_name": "Paisley", "last_name": "Morris", "birthdate": "2001-04-23T00:00:00.000Z", "slug": "paisley-morris"  },
+      { "id": 2, "title": "Sarah", "last_name": "Morris", "birthdate": "2001-04-23T00:00:00.000Z", "slug": "sarah-morris" },
+      { "id": 3, "title": "Sally", "last_name": "Morris", "birthdate": "2001-04-23T00:00:00.000Z", "slug": "sally-morris" }
+    ],
+    "products": [
+        { "id": 1, "brand": "Huggies", "Product": "Little Movers", "size": 3, "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e" },
+        { "id": 2, "brand": "Huggies", "Product": "Natural Care Baby Wipes", "size": 3, "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e" },
+        { "id": 3, "brand": "GoodNites", "Product": "Underpants", "size": 3, "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e" }
+    ],
+    "profile": {
+      "name": "morris-family"
+    }
+  }
