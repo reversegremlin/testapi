@@ -10,9 +10,9 @@
         { "brand": "GoodNites", "Product": "Underpants", "size": 7, "guid": "406d6913-91da-4b1a-863a-c193d69bdee0" }
     ],                   
     "inventory": [
-        { "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e", "qty": 24},
-        { "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05", "qty": 127},
-        { "guid": "406d6913-91da-4b1a-863a-c193d69bdee0", "qty": 18}
+        { "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e", "qty": 24, "users": [ 1, 2 ] },
+        { "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05", "qty": 127, "users": [ 1, 2, 3 ]},
+        { "guid": "406d6913-91da-4b1a-863a-c193d69bdee0", "qty": 18, "users": [ 3 ]}
     ],
     "daily_usage": [
         { "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e", "qty": 9},
