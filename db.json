@@ -5,9 +5,9 @@
       { "id": 3, "title": "Sally", "last_name": "Morris", "birthdate": "2018-12-23T00:00:00.000Z", "next_size_date": "2021-02-15T00:00:00.000Z" }
     ],
     "products": [
-        { "brand": "Huggies", "Product": "Little Movers", "size": 3, "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e", "image": "https://www.huggies.com/~/media/images/kc/huggies/products/diapers/benefitimages/hug_portfolio_movers.png" },
-        { "brand": "Huggies", "Product": "Natural Care Baby Wipes", "size": 0, "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05", "image": "https://www.kimberly-clark.com/-/media/kimberly/images/brandingredients/huggies/wipes/2051950_ncs_hero_opt2.jpg?h=3000&w=3000&la=en&hash=764F75755ABE375F85CFBB87E4629C0099712544" },
-        { "brand": "GoodNites", "Product": "Underpants", "size": 7, "guid": "406d6913-91da-4b1a-863a-c193d69bdee0", "image": "https://www.goodnites.com/-/media/gns_image/video-images/video_boy.jpg?h=326&w=582&la=en-US&hash=FE871D7912AB5D8103BCFD33D3A4EF3A1DE26ED2" }
+        { "brand": "Huggies", "Product": "Little Movers", "size": 3, "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e", "image": "https://www.huggies.com/~/media/images/kc/huggies/products/diapers/benefitimages/hug_portfolio_movers.png", "order_url": "https://www.cvs.com/shop/huggies-little-movers-diapers-prodid-1070267" },
+        { "brand": "Huggies", "Product": "Natural Care Baby Wipes", "size": 0, "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05", "image": "https://www.kimberly-clark.com/-/media/kimberly/images/brandingredients/huggies/wipes/2051950_ncs_hero_opt2.jpg?h=3000&w=3000&la=en&hash=764F75755ABE375F85CFBB87E4629C0099712544", "order_url": "https://www.cvs.com/shop/huggies-natural-care-baby-wipes-unscented-prodid-1070317"},
+        { "brand": "GoodNites", "Product": "Underpants", "size": 7, "guid": "406d6913-91da-4b1a-863a-c193d69bdee0", "image": "https://www.goodnites.com/-/media/gns_image/video-images/video_boy.jpg?h=326&w=582&la=en-US&hash=FE871D7912AB5D8103BCFD33D3A4EF3A1DE26ED2", "order_url": "https://www.cvs.com/shop/goodnites-bedwetting-underwear-for-girls-l-xl-11-ct-packaging-may-vary-prodid-277661" }
     ],                   
     "inventory": [
         { "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e", "qty": 24, "users": [ 1, 2 ] },
@@ -15,7 +15,7 @@
         { "guid": "406d6913-91da-4b1a-863a-c193d69bdee0", "qty": 18, "users": [ 3 ] }
     ],
     "daily_usage": [
-        { "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e", "qty": 9},
+        { "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e", "qty": 18},
         { "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05", "qty": 12},
         { "guid": "406d6913-91da-4b1a-863a-c193d69bdee0", "qty": 2}
     ],
